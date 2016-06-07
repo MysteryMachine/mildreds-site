@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica;
+}
+
+#header{
+    background-image: url(https://favthingsdotnet.files.wordpress.com/2015/11/cropped-header-background1.jpg);
+    height: 460px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#header > .box{
+    background-color: #222;
+    color: white;
+    max-width: 50%;
+    text-align: center;
+    padding: 40px 80px;
+    font-style: italic;
+}
+
+#nav{
+    background-color: black;
+}
+
+#nav a.nav-link{
+    padding: 0 2em;
+    color: white;
+}
+
+#header h1.title{
+    font-weight: 100;
+    letter-spacing: 3px;
+    text-transform: capitalize;
+}
+
+#header h2.subtitle{
+    color: #777;
+    font-weight: 400;
+    font-size: 1.2em;
+}
+
+#header .divider{
+    border: 1px solid #333;
+    margin: 0 6em;
+}
